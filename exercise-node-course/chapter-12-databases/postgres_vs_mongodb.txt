@@ -1,0 +1,5 @@
+Document vs Relational
+Collections vs Tables
+NOSQL vs SQL
+Primarily horizontal vs Primarily vertical
+Flexible Schema vs Rigid

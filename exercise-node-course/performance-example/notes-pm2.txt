@@ -1,0 +1,5 @@
+pm2 reload
+
+pm2 restart
+
+pm2 monit

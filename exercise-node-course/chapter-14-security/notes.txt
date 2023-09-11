@@ -1,0 +1,19 @@
+Amazon CloudFront
+
+generate self signed openssl certificate
+---------------------------------------------------------------------------
+
+COMMAND Breakdown
+openssl req -x509 -newkey rsa:4096 -nodes -keyout key.pem -out cert.pem -days 365
+
+-x509 to declare we are generating a self signed certificate
+-newkey rsa:4096 to specify the type of encryption for our private key
+-nodes to specify password is not necessary
+-keyout key.pem private key file
+-out cert.pem certificate file
+-days 365 how long certificate is valid for. Default is 30 days.
+
+---------------------------------------------------------------------------
+
+/auth/google -> First we validate client with Client ID and Client Secret. This takes a callback on successfully validating our client.
+/auth/google/callback -> 
